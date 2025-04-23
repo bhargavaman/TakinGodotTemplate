@@ -39,6 +39,8 @@ For questions and help, open a Github Issue or contact Discord `tiny_takin_telle
 - Video settings are not working in the Godot Editor?
 	- Disable "Game Embed Mode" in Editor Settings.
 
+For additional FAQ search list of [closed issues](https://github.com/TinyTakinTeller/TakinGodotTemplate/issues?q=is%3Aissue%20state%3Aclosed).
+
 
 ### 💼 Editor Layout
 
