@@ -24,16 +24,16 @@ Log/break_on_error=false
 [application]
 
 config/name="TakinGodotTemplate"
-config/version="0.7.1"
-run/main_scene="res://scenes/scene/boot_splash_scene/boot_splash_scene.tscn"
+config/version="0.7.2"
+run/main_scene="res://root/scenes/scene/boot_splash_scene/boot_splash_scene.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 boot_splash/bg_color=Color(0, 0, 0, 1)
-boot_splash/image="res://assets/image/boot_splash/png/boot_splash_2560_1440.png"
-config/icon="res://assets/image/boot_splash/png/icon_1024_1024.png"
+boot_splash/image="res://root/assets/image/boot_splash/png/boot_splash_2560_1440.png"
+config/icon="res://root/assets/image/boot_splash/png/icon_1024_1024.png"
 
 [audio]
 
-buses/default_bus_layout="res://resources/global/audio_bus_layout/tres/audio_bus_layout.tres"
+buses/default_bus_layout="res://root/resources/global/audio_bus_layout/tres/audio_bus_layout.tres"
 manager/sound/bus="Sound"
 manager/sound/pool_1D_size=32
 manager/sound/pool_2D_size=32
@@ -44,20 +44,20 @@ manager/music/bus="Music"
 [autoload]
 
 Log="*res://addons/logger/logger.gd"
-LogWrapper="*res://autoload/wrapper/log_wrapper/log_wrapper.tscn"
-TranslationServerWrapper="*res://autoload/wrapper/translation_server_wrapper/translation_server_wrapper.tscn"
+LogWrapper="*res://root/autoload/wrapper/log_wrapper/log_wrapper.tscn"
+TranslationServerWrapper="*res://root/autoload/wrapper/translation_server_wrapper/translation_server_wrapper.tscn"
 SceneManager="*res://addons/scene_manager/scene_manager.tscn"
 Scenes="*res://addons/scene_manager/scenes.gd"
-SceneManagerWrapper="*res://autoload/wrapper/scene_manager_wrapper/scene_manager_wrapper.tscn"
-AudioManagerWrapper="*res://autoload/wrapper/audio_manager_wrapper/audio_manager_wrapper.tscn"
+SceneManagerWrapper="*res://root/autoload/wrapper/scene_manager_wrapper/scene_manager_wrapper.tscn"
+AudioManagerWrapper="*res://root/autoload/wrapper/audio_manager_wrapper/audio_manager_wrapper.tscn"
 SoundManager="*res://addons/resonate/sound_manager/sound_manager.gd"
 MusicManager="*res://addons/resonate/music_manager/music_manager.gd"
-SignalBus="*res://autoload/signal_bus/signal_bus.tscn"
-Data="*res://autoload/data/data.tscn"
-Overlay="*res://autoload/overlay/overlay.tscn"
-Configuration="*res://autoload/configuration/configuration.tscn"
-AssetReference="*res://autoload/reference/asset_reference/asset_reference.tscn"
-ResourceReference="*res://autoload/reference/resource_reference/resource_reference.tscn"
+SignalBus="*res://root/autoload/signal_bus/signal_bus.tscn"
+Data="*res://root/autoload/data/data.tscn"
+Overlay="*res://root/autoload/overlay/overlay.tscn"
+Configuration="*res://root/autoload/configuration/configuration.tscn"
+AssetReference="*res://root/autoload/reference/asset_reference/asset_reference.tscn"
+ResourceReference="*res://root/autoload/reference/resource_reference/resource_reference.tscn"
 
 [debug]
 
@@ -82,19 +82,20 @@ enabled=PackedStringArray("res://addons/format_on_save/plugin.cfg", "res://addon
 
 folder_colors={
 "res://addons/": "gray",
-"res://artifacts/": "gray",
-"res://assets/": "green",
-"res://autoload/": "blue",
-"res://resources/": "teal",
-"res://scenes/": "orange",
-"res://scripts/": "yellow",
-"res://shaders/": "red",
-"res://snippets/": "pink"
+"res://root/": "purple",
+"res://root/artifacts/": "purple",
+"res://root/assets/": "green",
+"res://root/autoload/": "blue",
+"res://root/resources/": "teal",
+"res://root/scenes/": "orange",
+"res://root/scripts/": "yellow",
+"res://root/shaders/": "red",
+"res://root/snippets/": "pink"
 }
 
 [gui]
 
-theme/custom="res://resources/global/theme/tres/theme.tres"
+theme/custom="res://root/resources/global/theme/tres/theme.tres"
 
 [input]
 
@@ -159,7 +160,7 @@ look_left={
 
 [internationalization]
 
-locale/translations=PackedStringArray("res://assets/i18n/localization.ar.translation", "res://assets/i18n/localization.bg.translation", "res://assets/i18n/localization.bs.translation", "res://assets/i18n/localization.cs.translation", "res://assets/i18n/localization.da.translation", "res://assets/i18n/localization.de.translation", "res://assets/i18n/localization.el.translation", "res://assets/i18n/localization.en.translation", "res://assets/i18n/localization.es.translation", "res://assets/i18n/localization.fi.translation", "res://assets/i18n/localization.fr.translation", "res://assets/i18n/localization.he.translation", "res://assets/i18n/localization.hu.translation", "res://assets/i18n/localization.it.translation", "res://assets/i18n/localization.ja.translation", "res://assets/i18n/localization.ko.translation", "res://assets/i18n/localization.nb.translation", "res://assets/i18n/localization.nl.translation", "res://assets/i18n/localization.pl.translation", "res://assets/i18n/localization.pt.translation", "res://assets/i18n/localization.ptBR.translation", "res://assets/i18n/localization.ro.translation", "res://assets/i18n/localization.ru.translation", "res://assets/i18n/localization.sv.translation", "res://assets/i18n/localization.th.translation", "res://assets/i18n/localization.tr.translation", "res://assets/i18n/localization.zh.translation", "res://assets/i18n/localization.zhZH.translation")
+locale/translations=PackedStringArray("res://root/assets/i18n/localization.ar.translation", "res://root/assets/i18n/localization.bg.translation", "res://root/assets/i18n/localization.bs.translation", "res://root/assets/i18n/localization.cs.translation", "res://root/assets/i18n/localization.da.translation", "res://root/assets/i18n/localization.de.translation", "res://root/assets/i18n/localization.description.translation", "res://root/assets/i18n/localization.el.translation", "res://root/assets/i18n/localization.en.translation", "res://root/assets/i18n/localization.es.translation", "res://root/assets/i18n/localization.fi.translation", "res://root/assets/i18n/localization.fr.translation", "res://root/assets/i18n/localization.he.translation", "res://root/assets/i18n/localization.hu.translation", "res://root/assets/i18n/localization.it.translation", "res://root/assets/i18n/localization.ja.translation", "res://root/assets/i18n/localization.ko.translation", "res://root/assets/i18n/localization.nb.translation", "res://root/assets/i18n/localization.nl.translation", "res://root/assets/i18n/localization.pl.translation", "res://root/assets/i18n/localization.pt.translation", "res://root/assets/i18n/localization.ptBR.translation", "res://root/assets/i18n/localization.ro.translation", "res://root/assets/i18n/localization.ru.translation", "res://root/assets/i18n/localization.sv.translation", "res://root/assets/i18n/localization.th.translation", "res://root/assets/i18n/localization.tr.translation", "res://root/assets/i18n/localization.zh.translation", "res://root/assets/i18n/localization.zhZH.translation")
 
 [rendering]
 

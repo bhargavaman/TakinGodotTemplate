@@ -36,9 +36,11 @@ jobs:
       - name: Lint code
         run: |
           cd godot
-          gdlint autoload resources scenes scripts shaders > gdlint_output.txt 2>&1 || true
-          cat gdlint_output.txt
-
+            find . -type f -name "*.gd" -not -path "./addons/*" > gd_files.txt
+            echo "Number of files to lint: $(wc -l < gd_files.txt)"
+            gdlint $(cat gd_files.txt) > gdlint_output.txt 2>&1 || true
+            cat gdlint_output.txt
+  
       # Parse the output and compare with the threshold
       - name: Check linter results
         run: |

@@ -16,15 +16,16 @@ See [⭐ Features](https://github.com/TinyTakinTeller/TakinGodotTemplate/blob/ma
 	- FUNDING.yml
 - **godot**
 	- **addons** (Plugins)
-	- **artifacts** (additional examples)
-	- **assets** *(.png, .mp3, .csv, .ttf, ...)*
-	- **autoload** (Globals)
-	- **resources** *(.tres, .gd)*
-	- **scenes** *(.tscn, .gd)*
-	- **scripts** *(static/const/object .gd)*
-	- **shaders** *(.gdshader)*
-	- **snippets** *(.cpp, .js, ...)*
-	- CREDITS.md
+	- **root** (project files)
+		- **artifacts** (additional examples)
+		- **assets** *(.png, .mp3, .csv, .ttf, ...)*
+		- **autoload** (Globals)
+		- **resources** *(.tres, .gd)*
+		- **scenes** *(.tscn, .gd)*
+		- **scripts** *(static/const/object .gd)*
+		- **shaders** *(.gdshader)*
+		- **snippets** *(.cpp, .js, ...)*
+		- CREDITS.md
 	- export_presets.cfg
 	- project.godot (ProjectSettings)
 - .gitattributes

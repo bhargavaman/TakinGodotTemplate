@@ -32,3 +32,10 @@ This template implements workarounds for the following issues:
 - **MacOS**
 - **iOS**
 - **Android**
+
+**Notes**
+- Renaming root folder
+	- localization files will need to be re-imported (Project > Project Settings > Localization)
+	- font files will lose fallbacks and will need to be re-imported after setting fallbacks again
+	- constant `const ROOT: String` will need to be updated to new value (`path_consts.gd`)
+	- scene manager plugin will need to be re-saved (in Scene Manager tab, click Refresh then Save)
