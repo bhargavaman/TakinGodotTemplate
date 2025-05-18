@@ -30,3 +30,7 @@ You can see documentation for each addon on their respective page.
 - **Audio Manager**
 	- The [Resonate](https://github.com/hugemenace/resonate) addon handles music tracks and sound effects.
 	- For a complex audio project, consider using FMOD or WWise.
+
+### 📊 In-Game
+- **Debug Menu**
+	- The [Debug Menu](https://github.com/godot-extended-libraries/godot-debug-menu) can be toggled via F3 key and tracks game performance.
