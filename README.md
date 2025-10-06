@@ -4,7 +4,7 @@
 
 # Takin - Godot Template [v0.7]
 
-**Godot 4.4** template for game projects (GDScript).
+**Godot 4.4** template for game projects (GDScript), inspired by [Maaack's Godot Game Template](https://github.com/Maaack/Godot-Game-Template).
 
 Fusion of curated plugins, essential features and best practices to kick-start new projects.
 
